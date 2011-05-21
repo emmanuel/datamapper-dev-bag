@@ -1,0 +1,15 @@
+[submodule "dm-core"]
+	path = dm-core
+	url = https://github.com/emmanuel/dm-core.git
+[submodule "dm-types"]
+	path = dm-types
+	url = https://github.com/emmanuel/dm-types
+[submodule "dm-validations"]
+	path = dm-validations
+	url = https://github.com/emmanuel/dm-validations
+[submodule "dm-do-adapter"]
+	path = dm-do-adapter
+	url = https://github.com/datamapper/dm-do-adapter
+[submodule "dm-timestamps"]
+	path = dm-timestamps
+	url = https://github.com/emmanuel/dm-timestamps
