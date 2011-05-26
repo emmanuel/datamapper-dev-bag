@@ -13,3 +13,24 @@
 [submodule "dm-timestamps"]
 	path = dm-timestamps
 	url = https://github.com/emmanuel/dm-timestamps
+[submodule "dm-aggregates"]
+	path = dm-aggregates
+	url = git://github.com/datamapper/dm-aggregates.git
+[submodule "dm-constraints"]
+	path = dm-constraints
+	url = git://github.com/datamapper/dm-constraints.git
+[submodule "dm-rails"]
+	path = dm-rails
+	url = git://github.com/datamapper/dm-rails.git
+[submodule "dm-active_model"]
+	path = dm-active_model
+	url = git://github.com/datamapper/dm-active_model.git
+[submodule "dm-transactions"]
+	path = dm-transactions
+	url = git://github.com/datamapper/dm-transactions.git
+[submodule "dm-observer"]
+	path = dm-observer
+	url = git://github.com/datamapper/dm-observer.git
+[submodule "dm-dev"]
+	path = dm-dev
+	url = git://github.com/datamapper/dm-dev.git
