@@ -34,3 +34,18 @@
 [submodule "dm-dev"]
 	path = dm-dev
 	url = git://github.com/datamapper/dm-dev.git
+[submodule "dm-yaml-adapter"]
+	path = dm-yaml-adapter
+	url = git://github.com/datamapper/dm-yaml-adapter.git
+[submodule "dm-sqlite-adapter"]
+	path = dm-sqlite-adapter
+	url = git://github.com/datamapper/dm-sqlite-adapter.git
+[submodule "dm-postgres-adapter"]
+	path = dm-postgres-adapter
+	url = git://github.com/datamapper/dm-postgres-adapter.git
+[submodule "dm-mysql-adapter"]
+	path = dm-mysql-adapter
+	url = git://github.com/datamapper/dm-mysql-adapter.git
+[submodule "dm-migrations"]
+	path = dm-migrations
+	url = git://github.com/datamapper/dm-migrations.git
