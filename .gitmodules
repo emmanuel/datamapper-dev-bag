@@ -49,3 +49,66 @@
 [submodule "dm-migrations"]
 	path = dm-migrations
 	url = git://github.com/datamapper/dm-migrations.git
+[submodule "data_mapper"]
+	path = data_mapper
+	url = git://github.com/datamapper/data_mapper.git
+[submodule "dm-adjust"]
+	path = dm-adjust
+	url = git://github.com/datamapper/dm-adjust.git
+[submodule "dm-ar-finders"]
+	path = dm-ar-finders
+	url = git://github.com/datamapper/dm-ar-finders.git
+[submodule "dm-cli"]
+	path = dm-cli
+	url = git://github.com/datamapper/dm-cli.git
+[submodule "dm-ferret-adapter"]
+	path = dm-ferret-adapter
+	url = git://github.com/datamapper/dm-ferret-adapter.git
+[submodule "dm-is-list"]
+	path = dm-is-list
+	url = git://github.com/datamapper/dm-is-list.git
+[submodule "dm-is-nested_set"]
+	path = dm-is-nested_set
+	url = git://github.com/datamapper/dm-is-nested_set.git
+[submodule "dm-is-remixable"]
+	path = dm-is-remixable
+	url = git://github.com/datamapper/dm-is-remixable.git
+[submodule "dm-is-searchable"]
+	path = dm-is-searchable
+	url = git://github.com/datamapper/dm-is-searchable.git
+[submodule "dm-is-state_machine"]
+	path = dm-is-state_machine
+	url = git://github.com/datamapper/dm-is-state_machine.git
+[submodule "dm-is-tree"]
+	path = dm-is-tree
+	url = git://github.com/datamapper/dm-is-tree.git
+[submodule "dm-is-versioned"]
+	path = dm-is-versioned
+	url = git://github.com/datamapper/dm-is-versioned.git
+[submodule "dm-models"]
+	path = dm-models
+	url = git://github.com/datamapper/dm-models.git
+[submodule "dm-rest-adapter"]
+	path = dm-rest-adapter
+	url = git://github.com/datamapper/dm-rest-adapter.git
+[submodule "dm-serializer"]
+	path = dm-serializer
+	url = git://github.com/datamapper/dm-serializer.git
+[submodule "dm-sweatshop"]
+	path = dm-sweatshop
+	url = git://github.com/datamapper/dm-sweatshop.git
+[submodule "dm-tags"]
+	path = dm-tags
+	url = git://github.com/datamapper/dm-tags.git
+[submodule "do"]
+	path = do
+	url = git://github.com/datamapper/do.git
+[submodule "extlib"]
+	path = extlib
+	url = git://github.com/datamapper/extlib.git
+[submodule "rails_datamapper"]
+	path = rails_datamapper
+	url = git://github.com/datamapper/rails_datamapper.git
+[submodule "datamapper.github.com"]
+	path = datamapper.github.com
+	url = git://github.com/datamapper/datamapper.github.com.git
