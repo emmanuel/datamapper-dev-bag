@@ -112,3 +112,6 @@
 [submodule "datamapper.github.com"]
 	path = datamapper.github.com
 	url = git://github.com/datamapper/datamapper.github.com.git
+[submodule "dm-accepts_nested_attributes"]
+	path = dm-accepts_nested_attributes
+	url = https://github.com/snusnu/dm-accepts_nested_attributes.git
