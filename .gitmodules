@@ -115,3 +115,18 @@
 [submodule "dm-accepts_nested_attributes"]
 	path = dm-accepts_nested_attributes
 	url = https://github.com/snusnu/dm-accepts_nested_attributes.git
+[submodule "veritas"]
+	path = veritas
+	url = git://github.com/dkubb/veritas.git
+[submodule "veritas-optimizer"]
+	path = veritas-optimizer
+	url = git://github.com/dkubb/veritas-optimizer.git
+[submodule "veritas-sql-generator"]
+	path = veritas-sql-generator
+	url = git://github.com/dkubb/veritas-sql-generator.git
+[submodule "dm-mongo-adapter"]
+	path = dm-mongo-adapter
+	url = git://github.com/solnic/dm-mongo-adapter.git
+[submodule "dm-redis-adapter"]
+	path = dm-redis-adapter
+	url = git://github.com/whoahbot/dm-redis-adapter.git
