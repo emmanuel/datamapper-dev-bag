@@ -18,6 +18,7 @@ module DataMapper
 
   class Property
     def attribute
+      # Veritas::Attribute.infer_type expects an instance not a Class
       # Veritas::Attribute.infer_type(primitive).new(name)
       Veritas::Attribute.coerce([name, primitive])
     end
@@ -26,17 +27,21 @@ module DataMapper
   class Query
 
     def relation
-      header   = self.header
-      relation = model.relation
+      model     = self.model
+      relation  = model.relation
+      header    = self.header
+      links     = self.links
 
-      links    = self.links
-
-      # TODO: get links working as joins
-      links.each { |link| relation = join_relation_with_link(relation, link) }
-      debugger
+      relations = Hash[links.map { |r| [r.model, r.model.relation] }]
+      relations[model] = relation
 
       # Only restrict if there are conditions in this Query
       relation = relation.restrict { |r| restrict_relation(r) } # if conditions.any?
+      # restrict_relations_by_model(model, relations)
+
+      # TODO: get links working as joins
+      links.each { |link| relation = join_relation_with_link(relation, link) }
+      # debugger
 
       # Only project if there is a difference in header from the base relation
       if relation.header != header
@@ -100,6 +105,13 @@ module DataMapper
       :lte   => :lte,
     }
 
+    # TODO: pass relations Hash into #restrict_relation, then apply
+    #   restrictions to the appropriate relation based on the model of the
+    #   property (or relationship) target of the condition
+    def restrict_relations_by_model(model, relations)
+      
+    end
+
     def restrict_relation(relation, operation = self.conditions)
       case operation
       when Conditions::AndOperation
@@ -114,7 +126,7 @@ module DataMapper
         end
       when Conditions::NotOperation
         restrict_relation(relation, operation.operand).not
-      when NilClass, Conditions::NullOperation
+      when Conditions::NullOperation
         # This is a no-op; NullOperation matches everything
         relation
       when Conditions::AbstractComparison
