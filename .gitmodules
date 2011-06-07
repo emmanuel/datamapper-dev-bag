@@ -130,3 +130,9 @@
 [submodule "dm-redis-adapter"]
 	path = dm-redis-adapter
 	url = git://github.com/whoahbot/dm-redis-adapter.git
+[submodule "gist-1004087"]
+	path = gist-1004087
+	url = git@gist.github.com:1004087.git
+[submodule "gist-5d93d7d2"]
+	path = gist-5d93d7d2
+	url = git@gist.github.com:5d93d7d26243afe18015.git
