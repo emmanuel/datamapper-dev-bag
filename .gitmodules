@@ -142,3 +142,6 @@
 [submodule "dm-validations-ext"]
 	path = dm-validations-ext
 	url = https://github.com/solnic/dm-validations-ext.git
+[submodule "dm-devise"]
+	path = dm-devise
+	url = git://github.com/jm81/dm-devise.git
